@@ -10,10 +10,10 @@ export function DualPurpose({
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className={`text-4xl md:text-5xl font-bold ${isDark ? 'text-white' : 'text-gray-900'} mb-4`}>
-            Dual-Purpose AI Platform
+            Deploy AI to Customers and Loan Officers
           </h2>
           <p className={`text-xl ${isDark ? 'text-slate-400' : 'text-gray-600'}`}>
-            One platform, two powerful capabilities working together
+            One platform, two powerful capabilities working together to bring AI to your mortgage setup.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8">
@@ -28,36 +28,37 @@ export function DualPurpose({
                 Consumer-Facing
               </h3>
               <p className={`${isDark ? 'text-slate-300' : 'text-gray-600'} mb-6 leading-relaxed`}>
-                Automate and personalize the customer journey directly on your
-                website. The AI agent interacts conversationally, analyzing
-                financial situations in real-time.
+                Transform your customer experience with Mort.ai — a conversational assistant that connects with your CRM to provide AI contextual marketing directly to consumers.
+              </p>
+              <p className={`font-semibold ${isDark ? 'text-white' : 'text-gray-900'} mb-4`}>
+                Empower Your Customers to Apply using AI.
               </p>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <div className={`w-1.5 h-1.5 ${isDark ? 'bg-blue-400' : 'bg-red-600'} rounded-full mt-2`}></div>
                   <p className={isDark ? 'text-slate-400' : 'text-gray-600'}>
-                    Rapid qualification of applicants
+                    AI Qualifications → Data-driven personalized offers
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className={`w-1.5 h-1.5 ${isDark ? 'bg-blue-400' : 'bg-red-600'} rounded-full mt-2`}></div>
                   <p className={isDark ? 'text-slate-400' : 'text-gray-600'}>
-                    Data-driven personalized offers
+                    CRM Integration → Seamless AI Lead Capture
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className={`w-1.5 h-1.5 ${isDark ? 'bg-blue-400' : 'bg-red-600'} rounded-full mt-2`}></div>
                   <p className={isDark ? 'text-slate-400' : 'text-gray-600'}>
-                    CRM integration for seamless lead capture
+                    Financial Friendliness → Build Brand Trust with AI Finance Insights
                   </p>
                 </div>
               </div>
               <div className={`mt-8 p-4 rounded-lg ${isDark ? 'bg-blue-500/10 border-blue-500/20' : 'bg-red-50 border-red-200'} border`}>
                 <p className={`${isDark ? 'text-blue-300' : 'text-red-700'} font-semibold`}>
-                  "You could save $237/month. Apply today!"
+                  "Hi Suzie! We could save you $237/month. Apply Today!"
                 </p>
                 <p className={`${isDark ? 'text-slate-400' : 'text-gray-600'} text-sm mt-1`}>
-                  Example AI-generated offer
+                  AI-Enabled Insights, Connected with your CRM, Delivered Seamlessly
                 </p>
               </div>
             </div>
@@ -72,11 +73,10 @@ export function DualPurpose({
               <h3 className={`text-3xl font-bold ${isDark ? 'text-white' : 'text-gray-900'} mb-4`}>
                 Internal Analytics
               </h3>
-              <p className={`${isDark ? 'text-slate-300' : 'text-gray-600'} mb-6 leading-relaxed`}>
-                Secure analytics interface for executives and marketers. Upload
-                internal datasets and generate visual insights instantly—all
-                within your private environment.
+              <p className={`${isDark ? 'text-slate-300' : 'text-gray-600'} mb-4 leading-relaxed`}>
+                Secure analytics interface for executives and marketers. Upload internal datasets and generate visual insights instantly—all within your private environment.
               </p>
+              <p className={`font-semibold ${isDark ? 'text-white' : 'text-gray-900'} mb-4`}>Transform Data Despair into Marketing Millions.</p>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <div className={`w-1.5 h-1.5 ${isDark ? 'bg-purple-400' : 'bg-orange-600'} rounded-full mt-2`}></div>
@@ -97,12 +97,12 @@ export function DualPurpose({
                   </p>
                 </div>
               </div>
-              <div className={`mt-8 p-4 rounded-lg ${isDark ? 'bg-purple-500/10 border-purple-500/20' : 'bg-orange-50 border-orange-200'} border`}>
+              <div className={`mt-6 p-4 rounded-lg ${isDark ? 'bg-purple-500/10 border-purple-500/20' : 'bg-orange-50 border-orange-200'} border`}>
                 <p className={`${isDark ? 'text-purple-300' : 'text-orange-700'} font-semibold`}>
-                  Fully privatized AI environment
+                  Simple, Safe, Secure AI Environment
                 </p>
                 <p className={`${isDark ? 'text-slate-400' : 'text-gray-600'} text-sm mt-1`}>
-                  Your data never leaves your infrastructure
+                  Your data never leaves your hands. Train AI models on your data to build advanced insights.
                 </p>
               </div>
             </div>

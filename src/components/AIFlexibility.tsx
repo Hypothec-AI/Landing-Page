@@ -1,3 +1,4 @@
+import React from "react";
 import { BrainCircuitIcon, CheckCircleIcon } from "lucide-react";
 interface AIFlexibilityProps {
   isDark: boolean;

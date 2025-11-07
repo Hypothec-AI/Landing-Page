@@ -9,19 +9,19 @@ export function Features({
   const features = [{
     icon: MessageSquareIcon,
     title: 'AI-Powered Lead Qualification',
-    description: 'Conversational AI analyzes customer financial situations in real-time, identifying qualified applicants instantly.'
+    description: 'Conversational AI analyzes customer financial queries in real-time, identifying and connecting qualified applicants instantly.'
   }, {
     icon: BarChart3Icon,
     title: 'Internal Analytics Platform',
-    description: 'Secure AI environment for uploading datasets and generating visual insights to guide strategy and optimize campaigns.'
+    description: 'Utilize our Secure Cloud environment to upload all your datasets and generate visual insights to guide strategy and optimize campaigns. Turn data into a visual story that uncovers hidden profits.'
   }, {
     icon: ShieldCheckIcon,
     title: 'Enterprise-Grade Security',
-    description: 'Keep sensitive data fully contained within your environment with privatized AI infrastructure.'
+    description: 'Keep sensitive data fully contained within your environment with privatized AI infrastructure. All your data stays yours — we never train or sell information to 3rd parties.'
   }, {
     icon: ZapIcon,
     title: 'Instant Deployment',
-    description: 'Deploy directly to your website and CRM. Start converting leads and analyzing data in minutes, not months.'
+    description: "Deploy directly to your environment of choice. Need AI-grade hardware? We'll deploy directly with Hypothec Cloud — host, deployment, the works."
   }];
   return <div className={`w-full ${isDark ? 'bg-slate-950' : 'bg-white'} py-24 px-6`}>
       <div className="max-w-6xl mx-auto">
@@ -30,8 +30,7 @@ export function Features({
             Everything You Need to Compete
           </h2>
           <p className={`text-xl ${isDark ? 'text-slate-400' : 'text-gray-600'} max-w-2xl mx-auto`}>
-            Close the gap with large banks and fintechs. Get AI/ML capabilities
-            without building an internal team.
+            Close the gap with large banks and fintechs. Get AI loan insight capabilities today, no IT required.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8">
